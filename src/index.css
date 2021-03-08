@@ -1,8 +1,16 @@
+/*
+*  Color Palette
+*  dark brown:  #998411
+*  yellow:  #FFE34F
+*  gold caramel:  #E6C930
+*  navy blue:  #0C0299
+*  blue:  #3C30E6
+*/
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+  font-family: 'Open Sans', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
