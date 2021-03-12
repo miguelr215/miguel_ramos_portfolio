@@ -19,7 +19,7 @@ import './Skills.css';
 export default class Skills extends React.Component {
     render(){
         return(
-            <section>
+            <section id="skills">
                 <h2 className="section_header">SKILLS</h2>
                 <div className="skills_container">
                     <div className="skills_card">

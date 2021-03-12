@@ -4,7 +4,7 @@ import './Education.css';
 export default class Education extends React.Component {
     render(){
         return(
-            <section className="edu_section">
+            <section id="education" className="edu_section">
                 <h2 className="section_header">EDUCATION</h2>
                 <div className="edu_container">
                     <div className="edu">

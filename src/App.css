@@ -6,3 +6,8 @@
     color: #FFE34F;
     padding: 15px;
 }
+
+
+@media all and (min-width: 750px) {
+    /*what goes here */
+}

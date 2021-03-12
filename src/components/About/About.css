@@ -17,8 +17,13 @@
     padding: 10px;
     font-size: 18px;
     background-color: rgb(228, 228, 228);
+    border-radius: 7px;
 }
 
+.cta {
+    font-weight: 700;
+    font-style: italic;
+}
 
 /***** MEDIA QUERIES******/
 @media all and (min-width: 750px) {
