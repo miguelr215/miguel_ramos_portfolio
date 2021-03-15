@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, Switch, Route } from 'react-router-dom';
 import Hero from './components/Hero/Hero';
 import NavBar from './components/NavBar/NavBar';
 import About from './components/About/About';
@@ -18,8 +19,14 @@ class App extends React.Component {
         <Hero />
         <About />
         <Skills />
+        <Switch>
+          <Route 
+            exact
+            path="/"
+            component={Projects} 
+          />
+        </Switch>
         <Education />
-        <Projects />
         <Contact />
       </main>
     );

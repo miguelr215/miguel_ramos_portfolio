@@ -13,8 +13,9 @@ export default class NavBar extends React.Component {
                 </AnchorLink>
                 <AnchorLink href="#about" className="nav_link">About</AnchorLink>
                 <AnchorLink href="#skills" className="nav_link">Skills</AnchorLink>
-                <AnchorLink href="#education" className="nav_link">Education</AnchorLink>
                 <AnchorLink href="#projects" className="nav_link">Projects</AnchorLink>
+                <AnchorLink href="#education" className="nav_link">Education</AnchorLink>
+                <a href="./Miguel_Ramos_Resume.pdf" target="_blank" rel="noreferrer" className="nav_link">Resume</a>
                 <AnchorLink href="#contact" className="nav_link">Contact</AnchorLink>
             </nav>
         );

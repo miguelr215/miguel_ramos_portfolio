@@ -1,11 +1,14 @@
 import React from 'react';
+import heroVid from './space.mp4';
 import './Hero.css';
 
 export default class Hero extends React.Component {
     render(){
         return(
             <section id="home">
-                do something cool here
+                <video className="hero_video" autoPlay loop muted>
+                    <source src={heroVid} type="video/mp4" />
+                </video>
             </section>
         )
     }

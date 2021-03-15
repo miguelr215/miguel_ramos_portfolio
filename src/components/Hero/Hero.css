@@ -2,4 +2,9 @@
     #home {
         margin-top: 95px;
     }
+
+    .hero_video {
+        height: 100%;
+        width: 100%;
+    }
 }

@@ -18,6 +18,11 @@
     width: 350px;
 }
 
+.require_label {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+
 .contact_form,
 .contact_form input,
 .contact_form textarea,
@@ -58,11 +63,20 @@
 
 .contact_icon {
     margin: 15px;
+    color: black;
 }
 
 .contact_links a {
     text-decoration: none;
     font-size: 20px;
+}
+
+.contact_links a:hover {
+    border-bottom: 1px solid #998411;
+}
+
+.contact_icon:hover {
+    border-bottom: none;
 }
 
 .contact_section h4 {

@@ -93,7 +93,7 @@ export default class Skills extends React.Component {
                             </div>
                             <div className="skill">
                                 <img src={wordpressLogo} alt="Wordpress Logo" />
-                                <h4>Wordpress</h4>
+                                <h4>WordPress</h4>
                             </div>
                             <div className="skill">
                                 <img src={airtableLogo} alt="Airtable Logo" />
