@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import cases from '../../cases';
+import { MdKeyboardArrowRight } from 'react-icons/md';
 import './Projects.css';
 
 export default class Projects extends React.Component {
     render(){
-        const projects = cases;
+        const projects = this.props.cases;
         const projectsList = projects.map(project => (
             <div className="project_card">
                 <h4>{project.title}</h4>
@@ -25,7 +25,12 @@ export default class Projects extends React.Component {
                         </p>
                     </div>
                 </div>
-                <Link>FULL DETAILS</Link>
+                <Link
+                    className="full_detail_btn"
+                    to="/"
+                >
+                    FULL DETAILS <MdKeyboardArrowRight />
+                </Link>
             </div>
         ));
 

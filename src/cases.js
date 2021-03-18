@@ -3,6 +3,7 @@ import reactLogo from './images/reactLogo.png';
 const cases = [
     {
         "ProjectID": 1,
+        "path": "",
         "title": "Increase scalability with an e-commerce site",
         "image": reactLogo,
         "image-alt": "main img alt text",
@@ -26,6 +27,7 @@ const cases = [
     },
     {
         "ProjectID": 2,
+        "path": "",
         "title": "Accumulate company stock info & investing education",
         "image": reactLogo,
         "image-alt": "",
@@ -49,6 +51,7 @@ const cases = [
     },
     {
         "ProjectID": 3,
+        "path": "",
         "title": "",
         "image": reactLogo,
         "image-alt": "",
@@ -72,6 +75,7 @@ const cases = [
     },
     {
         "ProjectID": 4,
+        "path": "omnifood",
         "title": "",
         "image": reactLogo,
         "image-alt": "",

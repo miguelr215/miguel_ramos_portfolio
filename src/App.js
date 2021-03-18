@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, Switch, Route } from 'react-router-dom';
+import cases from './cases';
 import Hero from './components/Hero/Hero';
 import NavBar from './components/NavBar/NavBar';
 import About from './components/About/About';
@@ -10,7 +11,19 @@ import Contact from './components/Contact/Contact';
 import './App.css';
 
 class App extends React.Component {
+  state = {
+    cases: []
+  };
+
+  componentDidMount(){
+    const caseFile = cases;
+    this.setState({
+      cases: caseFile
+    });
+  };
+
   render(){
+    const { cases } = this.state;
     return (
       <main className="App">
         <div className="sidebar">
@@ -23,7 +36,11 @@ class App extends React.Component {
           <Route 
             exact
             path="/"
-            component={Projects} 
+            render={() => 
+              <Projects 
+                cases={cases}
+              />
+            }
           />
         </Switch>
         <Education />
