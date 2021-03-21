@@ -7,12 +7,10 @@ export default class Projects extends React.Component {
     render(){
         const projects = this.props.cases;
         const projectsList = projects.map(project => (
-            <div className="project_card">
+            <div className="project_card" key={project.ProjectID}>
                 <h4>{project.title}</h4>
                 <div className="project_container">
-                    <div className="project_img">
-                        <img src={project.image} alt={project['image-alt']} />
-                    </div>
+                    <img src={project.image} alt={project['image-alt']} className="project_image" />
                     <div className="project_brief">
                         <p>
                             <span className="project_brief_label">Who</span> {project.who}
@@ -27,9 +25,10 @@ export default class Projects extends React.Component {
                 </div>
                 <Link
                     className="full_detail_btn"
-                    to="/"
+                    to={`/project/:${project.path}`}
+                    onClick={e => this.props.onSelectProject(project.ProjectID, project.path)}
                 >
-                    FULL DETAILS <MdKeyboardArrowRight />
+                    FULL DETAILS <MdKeyboardArrowRight className="full_detail_arrow" />
                 </Link>
             </div>
         ));

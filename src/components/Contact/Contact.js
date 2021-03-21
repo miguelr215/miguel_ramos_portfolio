@@ -41,19 +41,19 @@ export default class Contact extends React.Component {
                             <h4>Send a message</h4>
                             <p className="require_label">* required</p>
                             <p>
-                                <label for="name">Name*</label>
+                                <label htmlFor="name">Name*</label>
                                 <input type="text" id="name" name="name" placeholder="Enter your name" required />
                             </p>
                             <p>
-                                <label for="email">Email*</label>
+                                <label htmlFor="email">Email*</label>
                                 <input type="text" id="email" name="email" placeholder="Enter your email" required />
                             </p>
                             <p>
-                                <label for="phone">Phone</label>
+                                <label htmlFor="phone">Phone</label>
                                 <input type="text" id="phone" name="phone" placeholder="xxx-xxx-xxxx" pattern="\d{3}[\-]\d{3}[\-]\d{4}" />
                             </p>
                             <p>
-                                <label for="message">Message</label>
+                                <label htmlFor="message">Message</label>
                                 <textarea name="message" id="message" cols="30" rows="4" placeholder="What would you like to discuss?"></textarea>
                             </p>
                             <button type="submit">Submit</button>

@@ -53,7 +53,7 @@
 .contact_form button:hover {
     background-color: #3C30E6;
     color: #E6C930;
-    box-shadow: 2px 2px 2px rgb(110, 110, 110);
+    box-shadow: 2px 2px 2px rgb(42, 42, 42);
 }
 
 .contact_form button:active {

@@ -7,12 +7,15 @@ import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Education from './components/Education/Education';
 import Projects from './components/Projects/Projects';
+import ProjectDetails from './components/ProjectDetails/ProjectDetails';
 import Contact from './components/Contact/Contact';
 import './App.css';
 
 class App extends React.Component {
   state = {
-    cases: []
+    cases: [], 
+    selectProjectID: 0,
+    selectProjectPath: ""
   };
 
   componentDidMount(){
@@ -22,8 +25,16 @@ class App extends React.Component {
     });
   };
 
+  selectProject = (newProjectID, newProjectPath) => {
+    console.log(newProjectID);
+    this.setState({
+      selectProjectID: newProjectID, 
+      selectProjectPath: newProjectPath
+    })
+  };
+
   render(){
-    const { cases } = this.state;
+    const { cases, selectProjectID, selectProjectPath } = this.state;
     return (
       <main className="App">
         <div className="sidebar">
@@ -39,6 +50,16 @@ class App extends React.Component {
             render={() => 
               <Projects 
                 cases={cases}
+                onSelectProject={this.selectProject}
+              />
+            }
+          />
+          <Route 
+            path={`/project/:${selectProjectPath}`}
+            render={() =>
+              <ProjectDetails 
+                cases={cases}
+                selectProjectID={selectProjectID}
               />
             }
           />
