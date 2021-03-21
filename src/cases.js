@@ -115,7 +115,7 @@ const cases = [
     {
         "ProjectID": 4,
         "path": "omnifood",
-        "title": "Food Delivery Service Website Developmenet",
+        "title": "Food Delivery Service Website Development",
         "image": omnifoodHero,
         "image-alt": "Omnifood Food Delivery website",
         "who": "Omnifood Food Delivery",
