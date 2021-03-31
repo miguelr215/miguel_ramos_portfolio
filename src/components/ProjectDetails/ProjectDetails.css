@@ -11,11 +11,17 @@
     flex-wrap: wrap;
     width: 90%;
     margin: 10px auto;
-    padding: 10px;
+    padding: 30px;
+    border: 1px solid #3C30E6;
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.75);
+    background-color: rgb(240, 240, 240);
 }
 
 .details h3 {
     width: 100%;
+    font-weight: 400;
+    margin-top: 30px;
 }
 
 .details {
@@ -61,7 +67,22 @@
 
 .process_img_box p,
 .done_img_box p {
-    margin-top: 5px;
+    margin: 25px 0;
+    color: #0C0299;
+    background-color: rgba(255, 226, 79, 0.7);
+    padding: 5px 15px;
+    border-radius: 7px;
+}
+
+.to_top_btn {
+    text-align: center;
+    margin: 50px auto;
+    color: #777;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.to_top_btn:hover {
+    color: #0C0299;
 }
 
 @media all and (min-width: 750px) {

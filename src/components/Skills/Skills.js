@@ -67,10 +67,6 @@ export default class Skills extends React.Component {
                                 <h4>Node.js</h4>
                             </div>
                             <div className="skill">
-                                <img src={postmanLogo} alt="Postman Logo" />
-                                <h4>Postman</h4>
-                            </div>
-                            <div className="skill">
                                 <img src={expressLogo} alt="Express Logo" />
                                 <h4>Express</h4>
                             </div>
@@ -94,6 +90,10 @@ export default class Skills extends React.Component {
                             <div className="skill">
                                 <img src={wordpressLogo} alt="Wordpress Logo" />
                                 <h4>WordPress</h4>
+                            </div>
+                            <div className="skill">
+                                <img src={postmanLogo} alt="Postman Logo" />
+                                <h4>Postman</h4>
                             </div>
                             <div className="skill">
                                 <img src={airtableLogo} alt="Airtable Logo" />

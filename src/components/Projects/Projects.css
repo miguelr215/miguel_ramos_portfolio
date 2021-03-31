@@ -4,9 +4,11 @@
 
 .project_brief_label {
     color: #0C0299;
-    background-color: #E6C930;
+    background-color: rgba(255, 226, 79, 0.8);
     font-size: 12px;
     margin-right: 5px;
+    padding: 5px;
+    border-radius: 7px;
 }
 
 .projects_container {

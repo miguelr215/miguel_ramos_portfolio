@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { CgCloseO } from 'react-icons/cg';
 import { FiExternalLink } from 'react-icons/fi';
 import { FaGithub } from 'react-icons/fa';
@@ -67,6 +68,7 @@ export default class ProjectDetails extends React.Component {
                             <p>{selectedProject["process-img4-alt"]}</p>
                             <img src={selectedProject["process-img4"]} alt={selectedProject["process-img4-alt"]} className="detail_img" />
                         </div>
+                        <AnchorLink href="#projects" className="to_top_btn">Back to Top</AnchorLink>
                     </div>
                 </div>
             </section>

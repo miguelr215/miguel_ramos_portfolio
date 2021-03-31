@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createRef } from 'react';
 import { Link, Switch, Route } from 'react-router-dom';
 import cases from './cases';
 import Hero from './components/Hero/Hero';
@@ -12,11 +12,15 @@ import Contact from './components/Contact/Contact';
 import './App.css';
 
 class App extends React.Component {
-  state = {
-    cases: [], 
-    selectProjectID: 0,
-    selectProjectPath: ""
-  };
+  constructor(props){
+    super(props);
+    this.state = {
+      cases: [], 
+      selectProjectID: 0,
+      selectProjectPath: ""
+    };
+    this.scrollDiv = React.createRef();
+  }
 
   componentDidMount(){
     const caseFile = cases;
@@ -25,12 +29,17 @@ class App extends React.Component {
     });
   };
 
+  scrollSmoothHandler = () => {
+    this.scrollDiv.current.scrollIntoView({behavior: "smooth"});
+  };  
+  
   selectProject = (newProjectID, newProjectPath) => {
     console.log(newProjectID);
     this.setState({
       selectProjectID: newProjectID, 
       selectProjectPath: newProjectPath
-    })
+    });
+    this.scrollSmoothHandler();
   };
 
   render(){
@@ -43,6 +52,7 @@ class App extends React.Component {
         <Hero />
         <About />
         <Skills />
+        <div ref={this.scrollDiv}></div>
         <Switch>
           <Route 
             exact

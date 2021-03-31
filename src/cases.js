@@ -7,28 +7,36 @@ import omnifoodImgGallery from './images/Omnifood/Omnifood-ImageGallery.PNG';
 import omnifoodLocations from './images/Omnifood/Omnifood-Locations.PNG';
 import omnifoodPricing from './images/Omnifood/Omnifood-Pricing.PNG';
 import omnifoodTestimonials from './images/Omnifood/Omnifood-Testimonials.PNG';
+import HBacct from './images/HB/HB-acct.PNG';
+import HBcart from './images/HB/HB-cart.PNG';
+import HBhome from './images/HB/HB-home.PNG';
+import HBlogin from './images/HB/HB-login.PNG';
+import HBproduct from './images/HB/HB-product.PNG';
+import HBstrains from './images/HB/HB-strains.PNG';
+import HBstrains2 from './images/HB/HB-strains2.PNG';
+import HBupsell from './images/HB/HB-upsell.PNG';
 
 const cases = [
     {
         "ProjectID": 1,
         "path": "HB-ordering-site",
         "title": "Increase scalability with an e-commerce site",
-        "image": reactLogo,
-        "image-alt": "main img alt text",
+        "image": HBproduct,
+        "image-alt": "Heavenly Buds product page",
         "who": "Heavenly Buds",
         "what": "UI | UX | WordPress website design | Custom Theme",
         "result": "Over 140% increase in sales revenue",
         "appName": "Heavenly Buds Ordering Website",
         "link": "http://orders.heavenlybuds.com/",
         "github": "",
-        "done-img1": reactLogo,
-        "done-img1-alt": "alt text",
-        "done-img2": reactLogo,
-        "done-img2-alt": "alt text",
-        "done-img3": reactLogo,
-        "done-img3-alt": "alt text",
-        "done-img4": reactLogo,
-        "done-img4-alt": "alt text",
+        "done-img1": HBhome,
+        "done-img1-alt": "Heavenly Buds home page",
+        "done-img2": HBstrains,
+        "done-img2-alt": "Heavenly Buds strains page",
+        "done-img3": HBstrains2,
+        "done-img3-alt": "Heavenly Buds strains page with sticky nav",
+        "done-img4": HBproduct,
+        "done-img4-alt": "Heavenly Buds product page",
         "summary": `Heavenly Buds is a licensed recreational cannabis producer and processor in WA state.  They serve over 70 retail locations across the state with multiple brands and products.   They were previously receiving orders through email but were running into inventory and order fulfillment issues.  The goal was to create an online application to make their ordering process easier for their customers, reduce order fulfillment issues while increasing efficiency in their processes.
         The result of implementing the e-commerce site gave Heavenly Buds the ability to double their retail customer count and produce an increase of over 140% in overall sales revenue.  The ordering website currently processes over $1.2M in sales annually.`,
         "technology": "HTML | CSS | JavaScript | jQuery | WordPress",
@@ -36,49 +44,49 @@ const cases = [
         "process": `I started by interviewing Heavenly Buds management to find out exactly what issues they were looking to resolve.  Email orders were taking a long time to process and they often ran out of inventory of certain products while customers were still ordering them.  This caused additional time going back and forth with retailers.  They also wanted an application that was easy to use and displayed the essence of their brands.
         I then connected with some of Heavenly Buds’ retail customers to find out what was important to this group.  The retailers are overwhelmed with phone calls, new companies seeking shelf space and customer issues.  They wanted something fast and easy to use, something that would make communication between the company seamless and something that had visuals of the products and important product info to make their purchase decisions.
         After defining each group’s needs, I sketched out the site theme, design and data flow.  Then, collaboration with Mario Espinosa began to code out the project.  We decided to use WordPress which addressed many of each group’s needs – ease of use for ordering and updating inventory, making product out of inventory unavailable and instant order status communication.`,
-        "process-img1": reactLogo,
-        "process-img1-alt": "alt text",
-        "process-img2": reactLogo,
-        "process-img2-alt": "alt text",
-        "process-img3": reactLogo,
-        "process-img3-alt": "alt text",
-        "process-img4": reactLogo,
-        "process-img4-alt": "alt text"
+        "process-img1": HBlogin,
+        "process-img1-alt": "Heavenly Buds login page",
+        "process-img2": HBacct,
+        "process-img2-alt": "Heavenly Buds account page - users can check order history, add order notes or change passwords",
+        "process-img3": HBupsell,
+        "process-img3-alt": "Added recommended products for upsell opportunities",
+        "process-img4": HBcart,
+        "process-img4-alt": "Heavenly Buds shopping cart with upsell products"
     },
-    {
-        "ProjectID": 2,
-        "path": "Land4Wholesale-website",
-        "title": "Create Property Showcase to increase sales",
-        "image": reactLogo,
-        "image-alt": "alt text",
-        "who": "CM3 Real Estate",
-        "what": "UI | UX | Front End coding | Video editing",
-        "result": "Cut days on market in half",
-        "appName": "Land4Wholesale.com",
-        "link": "",
-        "github": "",
-        "done-img1": reactLogo,
-        "done-img1-alt": "alt text",
-        "done-img2": reactLogo,
-        "done-img2-alt": "alt text",
-        "done-img3": reactLogo,
-        "done-img3-alt": "alt text",
-        "done-img4": reactLogo,
-        "done-img4-alt": "alt text",
-        "summary": `Land4Wholesale.com was owned by real estate investing company, CM3 Real Estate.  The company mainly focuses on commercial rentals but occasionally purchases raw land with optional zoning for commercial use.  Over time they created a stockpile of properties that they wanted to liquidate.  The goal was to create a website to showcase the properties to a wide range of both residential and commercial property buyers, deliver critical unique information needed to purchase raw land and market the properties on multiple platforms.`,
-        "technology": "HTML | CSS | JavaScript | WordPress",
-        "role": "I was sole contributor on each project – UI/UX, property data research, website design, video editing, Front-End coding and 3rd party integrations utilizing Zapier.com",
-        "process": `I began the process by interviewing real estate agents and brokers on what kind of raw land properties they sought to purchase, what are the key property details needed to make a purchase and how do they determine a property’s value.  With this information I began to design an e-commerce style website which showcased each property and highlighted their needs.  Information and graphics from zoning to property GPS coordinates and boundary lines to 100-year flood zones and everything in between was included for each property.  
-        Very quickly after launch we discovered there was a low response rate due to lack of compelling images, people had a hard time envisioning the possibilities with just plain pictures of trees and dirt.  We decided to have drones survey the properties and surrounding areas and marketed those videos for each property.  This dramatically increased the amount of interest in the properties and allowed for a 50% decrease in days on market which led to a much quicker liquidation of the properties.`,
-        "process-img1": reactLogo,
-        "process-img1-alt": "alt text",
-        "process-img2": reactLogo,
-        "process-img2-alt": "alt text",
-        "process-img3": reactLogo,
-        "process-img3-alt": "alt text",
-        "process-img4": reactLogo,
-        "process-img4-alt": "alt text"
-    },
+    // {
+    //     "ProjectID": 2,
+    //     "path": "Land4Wholesale-website",
+    //     "title": "Create Property Showcase to increase sales",
+    //     "image": reactLogo,
+    //     "image-alt": "alt text",
+    //     "who": "CM3 Real Estate",
+    //     "what": "UI | UX | Front End coding | Video editing",
+    //     "result": "Cut days on market in half",
+    //     "appName": "Land4Wholesale.com",
+    //     "link": "",
+    //     "github": "",
+    //     "done-img1": reactLogo,
+    //     "done-img1-alt": "alt text",
+    //     "done-img2": reactLogo,
+    //     "done-img2-alt": "alt text",
+    //     "done-img3": reactLogo,
+    //     "done-img3-alt": "alt text",
+    //     "done-img4": reactLogo,
+    //     "done-img4-alt": "alt text",
+    //     "summary": `Land4Wholesale.com was owned by real estate investing company, CM3 Real Estate.  The company mainly focuses on commercial rentals but occasionally purchases raw land with optional zoning for commercial use.  Over time they created a stockpile of properties that they wanted to liquidate.  The goal was to create a website to showcase the properties to a wide range of both residential and commercial property buyers, deliver critical unique information needed to purchase raw land and market the properties on multiple platforms.`,
+    //     "technology": "HTML | CSS | JavaScript | WordPress",
+    //     "role": "I was sole contributor on each project – UI/UX, property data research, website design, video editing, Front-End coding and 3rd party integrations utilizing Zapier.com",
+    //     "process": `I began the process by interviewing real estate agents and brokers on what kind of raw land properties they sought to purchase, what are the key property details needed to make a purchase and how do they determine a property’s value.  With this information I began to design an e-commerce style website which showcased each property and highlighted their needs.  Information and graphics from zoning to property GPS coordinates and boundary lines to 100-year flood zones and everything in between was included for each property.  
+    //     Very quickly after launch we discovered there was a low response rate due to lack of compelling images, people had a hard time envisioning the possibilities with just plain pictures of trees and dirt.  We decided to have drones survey the properties and surrounding areas and marketed those videos for each property.  This dramatically increased the amount of interest in the properties and allowed for a 50% decrease in days on market which led to a much quicker liquidation of the properties.`,
+    //     "process-img1": reactLogo,
+    //     "process-img1-alt": "alt text",
+    //     "process-img2": reactLogo,
+    //     "process-img2-alt": "alt text",
+    //     "process-img3": reactLogo,
+    //     "process-img3-alt": "alt text",
+    //     "process-img4": reactLogo,
+    //     "process-img4-alt": "alt text"
+    // },
     {
         "ProjectID": 3,
         "path": "stocks-analysis",
