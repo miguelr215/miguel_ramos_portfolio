@@ -15,6 +15,14 @@ import HBproduct from './images/HB/HB-product.PNG';
 import HBstrains from './images/HB/HB-strains.PNG';
 import HBstrains2 from './images/HB/HB-strains2.PNG';
 import HBupsell from './images/HB/HB-upsell.PNG';
+import StocksInfo from './images/Stocks/company-info1.PNG';
+import StocksNews from './images/Stocks/company-news.png';
+import StocksNews1 from './images/Stocks/company-news1.PNG';
+import StocksPage from './images/Stocks/education-page.PNG';
+import StocksPage2 from './images/Stocks/education-page2.PNG';
+import StocksResults from './images/Stocks/education-results.PNG';
+import StocksHome from './images/Stocks/homepage1.PNG';
+import StocksSearch from './images/Stocks/search.PNG';
 
 const cases = [
     {
@@ -91,34 +99,34 @@ const cases = [
         "ProjectID": 3,
         "path": "stocks-analysis",
         "title": "Company stock news & info with investing education",
-        "image": reactLogo,
-        "image-alt": "alt text",
+        "image": StocksHome,
+        "image-alt": "Stocks Analysis homepage",
         "who": "Useful for New Investors",
         "what": "UI | UX | Design | Front End coding | RESTful APIs",
         "result": "Increased understanding of stock & options investing",
         "appName": "Stocks Analysis",
         "link": "https://miguelr215.github.io/stocks-analysis/",
         "github": "https://github.com/miguelr215/stocks-analysis",
-        "done-img1": reactLogo,
-        "done-img1-alt": "alt text",
-        "done-img2": reactLogo,
-        "done-img2-alt": "alt text",
-        "done-img3": reactLogo,
-        "done-img3-alt": "alt text",
-        "done-img4": reactLogo,
-        "done-img4-alt": "alt text",
+        "done-img1": StocksHome,
+        "done-img1-alt": "Stocks Analysis homepage",
+        "done-img2": StocksInfo,
+        "done-img2-alt": "Stocks Analysis stock detail section",
+        "done-img3": StocksPage2,
+        "done-img3-alt": "Stocks Analysis Education search page",
+        "done-img4": StocksResults,
+        "done-img4-alt": "Stocks Analysis Education YouTube results",
         "summary": `This project was a course assignment by Thinkful.  The goal was to create an application which uses at least 1 RESTful API to pull and display data dependent upon the user’s criteria request.  I created an application which pulls public companies’ data, news and stock information.  In addition, an Education section was added to pull YouTube videos teaching about investing in stocks and options.`,
         "technology": "HTML | CSS | JavaScript | jQuery | RESTful APIs",
-        "role": "I was sole contributor on the entire project – UI/UX, design, Front-End and API coding",
-        "process": `I started this process by considering what kind of application I wanted to build.  After deciding on stocks as my topic I researched numerous APIs and decided to use the free stock API through RapidAPI.  The original sketch idea was simple, a text field for the user to enter the company they wanted to research and a way to display the returned information.  Company stock info and news were separated into their own sections.  After review by my mentor, it was suggested to add an Education section for users that were unfamiliar with many of the terms and stock information that was displayed so I utilized the YouTube API to pull videos teaching about investing in stocks and options.  This was a great project which taught me a lot about APIs, AJAX and error handling.`,
-        "process-img1": reactLogo,
-        "process-img1-alt": "alt text",
-        "process-img2": reactLogo,
-        "process-img2-alt": "alt text",
-        "process-img3": reactLogo,
-        "process-img3-alt": "alt text",
-        "process-img4": reactLogo,
-        "process-img4-alt": "alt text"
+        "role": "I was sole contributor on the entire project – UI/UX, design, Front-End coding",
+        "process": `I started this process by considering what kind of application I wanted to build.  After deciding on stocks as my topic I researched numerous APIs and decided to use the free stock API through RapidAPI.  The original sketch idea was simple, a text field for the user to enter the company they wanted to research and a way to display the returned information.  I initially had an API fetch for every character entered but I quickly ran into limit issues utilizing the free API, so it was changed to search the full user input.  Company stock info and news were separated into their own sections.  The news articles returned from the NewsAPI fetch also presented an unexpected issue as many of the articles returned either distorted, irrelevant or just no images returned at all.  After review by my mentor, it was suggested to add an Education section for users that were unfamiliar with many of the terms and stock information that was displayed so I utilized the YouTube API to pull videos teaching about investing in stocks and options.  This was a great project which taught me a lot about APIs, AJAX and error handling.`,
+        "process-img1": StocksSearch,
+        "process-img1-alt": "Updated stocks analysis search",
+        "process-img2": StocksNews,
+        "process-img2-alt": "BEFORE - Stocks Analysis news view",
+        "process-img3": StocksNews1,
+        "process-img3-alt": "AFTER - Stocks Analysis news view",
+        "process-img4": StocksPage,
+        "process-img4-alt": "Original Education page with poor accessibility"
     },
     {
         "ProjectID": 4,
