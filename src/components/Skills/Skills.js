@@ -21,6 +21,7 @@ export default class Skills extends React.Component {
         return(
             <section id="skills">
                 <h2 className="section_header">SKILLS</h2>
+                
                 <div className="skills_container">
                     <div className="skills_card">
                         <h3>Front End</h3>

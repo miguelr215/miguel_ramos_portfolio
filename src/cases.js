@@ -1,4 +1,4 @@
-import reactLogo from './images/reactLogo.png';
+// import reactLogo from './images/reactLogo.png';
 import omnifoodHero from './images/Omnifood/Omnifood-Hero.PNG';
 import omnifoodAbout from './images/Omnifood/Omnifood-About.PNG';
 import omnifoodContact from './images/Omnifood/Omnifood-Contact.PNG';

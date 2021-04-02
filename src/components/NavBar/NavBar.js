@@ -17,7 +17,7 @@ export default function NavBar() {
 
     return(
         <nav className="navbar">
-            <AnchorLink href="#home" className="nav_link" id="nav_MyBox">
+            <AnchorLink href="#about" className="nav_link" id="nav_MyBox">
                 <span id="nav_MyName">Miguel Ramos</span> 
                 <span id="nav_MyTitle">Full Stack Developer</span>
             </AnchorLink>

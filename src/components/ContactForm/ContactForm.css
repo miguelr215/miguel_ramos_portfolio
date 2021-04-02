@@ -1,0 +1,56 @@
+.contact_form {
+    width: 350px;
+    border: 1px solid #3C30E6;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 7px;
+}
+
+.require_label {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+
+.contact_form,
+.contact_form input,
+.contact_form textarea,
+.contact_form button {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.contact_form input,
+.contact_form textarea {
+    padding: 3px;
+    border-radius: 7px;
+    width: 90%;
+}
+
+.contact_form label {
+    display: block;
+    margin-bottom: 2px;
+    font-weight: 400;
+}
+
+.contact_form button {
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 50px;
+    background-color: #0C0299;
+    color: #FFE34F;
+}
+
+.contact_form button:hover {
+    background-color: #3C30E6;
+    color: #E6C930;
+    box-shadow: 2px 2px 2px rgb(42, 42, 42);
+}
+
+.contact_form button:active {
+    background-color: #E6C930;
+    color: #3C30E6;
+}
+
+.success_message {
+    color: green;
+}

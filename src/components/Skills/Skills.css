@@ -1,7 +1,20 @@
+.skills_container {
+    background-image: url(../../images/skills_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+
+.section_header {
+    margin-bottom: 0;
+}
+
 .skills_card {
     border: 1px solid #3C30E6;
     border-radius: 7px;
-    margin: 0px 15px 15px 15px;
+    margin: 20px;
+    background: rgb(255, 255, 255);
 }
 
 h3 {

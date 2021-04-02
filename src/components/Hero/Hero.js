@@ -1,5 +1,5 @@
 import React from 'react';
-import heroVid from './space.mp4';
+// import heroVid from './space.mp4';
 import './Hero.css';
 
 export default class Hero extends React.Component {

@@ -1,7 +1,7 @@
-import React, { createRef } from 'react';
-import { Link, Switch, Route } from 'react-router-dom';
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 import cases from './cases';
-import Hero from './components/Hero/Hero';
+// import Hero from './components/Hero/Hero';
 import NavBar from './components/NavBar/NavBar';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
@@ -34,7 +34,6 @@ class App extends React.Component {
   };  
   
   selectProject = (newProjectID, newProjectPath) => {
-    console.log(newProjectID);
     this.setState({
       selectProjectID: newProjectID, 
       selectProjectPath: newProjectPath
@@ -49,7 +48,7 @@ class App extends React.Component {
         <div className="sidebar">
           <NavBar />
         </div>
-        <Hero />
+        {/* <Hero /> */}
         <About />
         <Skills />
         <div ref={this.scrollDiv}></div>
@@ -70,6 +69,7 @@ class App extends React.Component {
               <ProjectDetails 
                 cases={cases}
                 selectProjectID={selectProjectID}
+                onCloseProject={this.scrollSmoothHandler}
               />
             }
           />
