@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from './Miguel_Ramos_Resume.pdf';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { HiOutlineMailOpen } from 'react-icons/hi';
@@ -19,8 +20,8 @@ export default function Contact() {
                     <div className="contact_links">
                         <h4>Connect with me</h4>
                         <p>
-                            <a href="./Miguel_Ramos_Resume.pdf" target="_blank" rel="noreferrer" className="contact_icon"><GrDocumentPdf /></a>
-                            <a href="./Miguel_Ramos_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+                            <a href={resume} target="_blank" rel="noreferrer" className="contact_icon"><GrDocumentPdf /></a>
+                            <a href={resume} target="_blank" rel="noreferrer">Resume</a>
                         </p>
                         <p>
                             <a href="mailto:drexelramos@gmail.com" className="contact_icon"><HiOutlineMailOpen /></a>

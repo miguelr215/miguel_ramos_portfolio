@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import resume from '../Contact/Miguel_Ramos_Resume.pdf';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
@@ -65,7 +66,7 @@ export default function NavBar() {
                 </li>
                 <li>
                     <a 
-                        href="./Miguel_Ramos_Resume.pdf" 
+                        href={resume} 
                         target="_blank" 
                         rel="noreferrer" 
                         className="nav_link"
