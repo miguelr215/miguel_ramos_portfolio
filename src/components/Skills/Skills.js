@@ -14,6 +14,8 @@ import gitHubLogo from '../../images/gitHubLogo.png';
 import wordpressLogo from '../../images/wordpressLogo.png';
 import postmanLogo from '../../images/postmanLogo.png';
 import airtableLogo from '../../images/airtableLogo.png';
+import sassLogo from '../../images/sass-logo.png';
+import npmLogo from '../../images/npm-logo.png';
 import './Skills.css';
 
 export default class Skills extends React.Component {
@@ -35,8 +37,12 @@ export default class Skills extends React.Component {
                                 <h4>CSS3</h4>
                             </div>
                             <div className="skill">
+                                <img src={sassLogo} alt="Sass logo" />
+                                <h4>Sass</h4>
+                            </div>
+                            <div className="skill">
                                 <img src={jsLogo} alt="JavaScript Logo" />
-                                <h4>JavaScript ES2020</h4>
+                                <h4>JavaScript ES6</h4>
                             </div>
                             <div className="skill">
                                 <img src={jQueryLogo} alt="jQuery Logo" />
@@ -87,6 +93,10 @@ export default class Skills extends React.Component {
                             <div className="skill">
                                 <img src={gitHubLogo} alt="GitHub Logo" />
                                 <h4>GitHub</h4>
+                            </div>
+                            <div className="skill">
+                                <img src={npmLogo} alt="npm Logo" />
+                                <h4>npm</h4>
                             </div>
                             <div className="skill">
                                 <img src={wordpressLogo} alt="Wordpress Logo" />
