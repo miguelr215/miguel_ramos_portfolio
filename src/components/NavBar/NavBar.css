@@ -1,6 +1,7 @@
 .navbar {
     position: relative;
-    background: #0C0299;
+    /* background: #0C0299; */
+    background: #001a42;
     height: 95px;
 }
 
@@ -110,7 +111,8 @@
         /* overflow-y: hidden; */
         flex: 3;
         position: inherit;
-        background: #0C0299;
+        /* background: #0C0299; */
+        background: #001a42;
         width: 100%;
         /* overflow: hidden; */
         display: flex;
