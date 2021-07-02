@@ -51,19 +51,20 @@
     margin: 10px;
     /* font-weight: 700; */
     border-radius: 50px;
-    background-color: #0C0299;
+    background: linear-gradient(to right, #3C30E6, #8680e0);
     color: #FFE34F;
 }
 
 .full_detail_btn:hover {
+    background: none;
     background-color: #3C30E6;
     color: #E6C930;
     box-shadow: 2px 2px 2px rgb(42, 42, 42);
 }
 
 .full_detail_btn:active {
-    background-color: #998411;
-    color: #3C30E6;
+    background-color: #0a027a;
+    color: #fff;
 }
 
 @media all and (min-width: 750px) {
