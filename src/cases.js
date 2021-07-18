@@ -149,7 +149,7 @@ const cases = [
         "done-img4": omnifoodContact,
         "done-img4-alt": "Omnifood Contact Us section",
         "summary": `This was a course assignment on Udemy focusing on JavaScript.  The goal was to create a website for a fictitious food delivery company utilizing JavaScript and jQuery.  The result was a single page application which utilizes different JavaScript and CSS techniques.`,
-        "technology": "HTML | CSS | JavaScript | jQuery",
+        "technology": "HTML | CSS | JavaScript",
         "role": "I completed all Front-End coding",
         "process": `The images were all supplied by the Udemy course.  The goal was to create a website for a fictitious food delivery company utilizing JavaScript and jQuery.  The website was designed to display critical information that a customer would want to know – description of the company and benefits of their services, food examples, pricing, testimonials, contact.  Each section of the website incorporated different CSS, JavaScript and/or jQuery animations, methods or techniques.  This was a great course which taught me foundational and advanced JavaScript and CSS coding.`,
         "process-img1": omnifoodImgGallery,
