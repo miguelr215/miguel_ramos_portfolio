@@ -3,8 +3,8 @@
 }
 
 .project_brief_label {
-    color: #0C0299;
-    background-color: rgba(255, 226, 79, 0.8);
+    background-color: #0C0299;
+    color: rgba(255, 226, 79);
     font-size: 12px;
     margin-right: 5px;
     padding: 5px;
@@ -36,6 +36,7 @@
 
 .project_image {
     margin-right: 10px;
+    padding: 20px;
     width: 45%;
     height: 45%;
     flex: 1;
@@ -46,25 +47,28 @@
 }
 
 .full_detail_btn {
+    display: inline-block;
     text-decoration: none;
     padding: 10px;
-    margin: 10px;
-    /* font-weight: 700; */
+    margin-top: 30px;
     border-radius: 50px;
     background: linear-gradient(to right, #3C30E6, #8680e0);
     color: #FFE34F;
+    transition: all .2s;
 }
 
 .full_detail_btn:hover {
     background: none;
     background-color: #3C30E6;
-    color: #E6C930;
+    color: #fcff52;
     box-shadow: 2px 2px 2px rgb(42, 42, 42);
+    transform: translate(-2px, -2px);
 }
 
 .full_detail_btn:active {
     background-color: #0a027a;
     color: #fff;
+    transform: translate(0, 0);
 }
 
 @media all and (min-width: 750px) {

@@ -21,15 +21,15 @@ export default class Projects extends React.Component {
                         <p>
                             <span className="project_brief_label">Result</span> {project.result}
                         </p>
+                        <Link
+                            className="full_detail_btn"
+                            to={`/project/:${project.path}`}
+                            onClick={e => this.props.onSelectProject(project.ProjectID, project.path)}
+                        >
+                            FULL DETAILS <MdKeyboardArrowRight className="full_detail_arrow" />
+                        </Link>
                     </div>
                 </div>
-                <Link
-                    className="full_detail_btn"
-                    to={`/project/:${project.path}`}
-                    onClick={e => this.props.onSelectProject(project.ProjectID, project.path)}
-                >
-                    FULL DETAILS <MdKeyboardArrowRight className="full_detail_arrow" />
-                </Link>
             </div>
         ));
 
