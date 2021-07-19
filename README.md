@@ -4,6 +4,13 @@ This responsive portfolio was built from scratch using React
 
 **Portfolio Link:**  https://miguel-ramos-portfolio.vercel.app/
 
+**Tech Used:** 
+- HTML
+- CSS
+- JavaScript
+- React
+- JSX
+
 In my portoflio you will find the following sections:
 * About Me
 * Skills
