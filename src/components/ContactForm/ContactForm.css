@@ -33,22 +33,27 @@
 }
 
 .contact_form button {
-    padding: 15px;
-    font-weight: 700;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 30px;
     border-radius: 50px;
-    background-color: #0C0299;
+    background: linear-gradient(to right, #3C30E6, #8680e0);
     color: #FFE34F;
+    transition: all .2s;
 }
 
 .contact_form button:hover {
-    background-color: #3C30E6;
-    color: #E6C930;
+    background: linear-gradient(to right, #3C30E6, #3C30E6);
+    color: #fcff52;
     box-shadow: 2px 2px 2px rgb(42, 42, 42);
+    transform: translate(-2px, -2px);
 }
 
 .contact_form button:active {
-    background-color: #E6C930;
-    color: #3C30E6;
+    background-color: #0a027a;
+    color: #fff;
+    transform: translate(0, 0);
 }
 
 .success_message {

@@ -58,8 +58,7 @@
 }
 
 .full_detail_btn:hover {
-    background: none;
-    background-color: #3C30E6;
+    background: linear-gradient(to right, #3C30E6, #3C30E6);
     color: #fcff52;
     box-shadow: 2px 2px 2px rgb(42, 42, 42);
     transform: translate(-2px, -2px);
