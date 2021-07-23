@@ -16,6 +16,7 @@ import postmanLogo from '../../images/postmanLogo.png';
 import airtableLogo from '../../images/airtableLogo.png';
 import sassLogo from '../../images/sass-logo.png';
 import npmLogo from '../../images/npm-logo.png';
+import figmaLogo from '../../images/figmaLogo.png';
 import './Skills.css';
 
 export default class Skills extends React.Component {
@@ -63,6 +64,10 @@ export default class Skills extends React.Component {
                             <div className="skill">
                                 <img src={reactLogo} alt="React Logo" />
                                 <h4>React</h4>
+                            </div>
+                            <div className="skill">
+                                <img src={figmaLogo} alt="Figma Logo" />
+                                <h4>Figma</h4>
                             </div>
                         </div>
                     </div>
