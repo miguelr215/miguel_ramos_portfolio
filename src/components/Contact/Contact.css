@@ -14,7 +14,7 @@
 }
 
 .contact_links {
-    width: 300px;
+    width: 70%;
     border: 1px solid #3C30E6;
     padding: 10px;
     margin: 20px;
@@ -51,5 +51,9 @@
         flex-direction: row;
         justify-content: center;
         align-items: unset;
+    }
+
+    .contact_links {
+        width: 300px;
     }
 }

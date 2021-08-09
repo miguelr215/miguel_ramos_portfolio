@@ -19,15 +19,30 @@ export default class Projects extends React.Component {
                             <span className="project_brief_label">What</span> {project.what}
                         </p>
                         <p>
+                            <span className="project_brief_label">Tech</span> {project.technology}
+                        </p>
+                        <p>
                             <span className="project_brief_label">Result</span> {project.result}
                         </p>
-                        <Link
-                            className="full_detail_btn"
-                            to={`/project/:${project.path}`}
-                            onClick={e => this.props.onSelectProject(project.ProjectID, project.path)}
-                        >
-                            FULL DETAILS <MdKeyboardArrowRight className="full_detail_arrow" />
-                        </Link>
+                        <div className='project_brief_controls'>
+
+                            <a
+                                className="view_site_btn"
+                                href={project.link}
+                                target="_blank" 
+                                rel="noreferrer"
+                            >
+                                View Site <MdKeyboardArrowRight className="full_detail_arrow" />
+                            </a>
+
+                            <Link
+                                className="full_detail_btn"
+                                to={`/project/:${project.path}`}
+                                onClick={e => this.props.onSelectProject(project.ProjectID, project.path)}
+                            >
+                                Full Details <MdKeyboardArrowRight className="full_detail_arrow" />
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>

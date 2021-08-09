@@ -1,4 +1,3 @@
-// import reactLogo from './images/reactLogo.png';
 import omnifoodHero from './images/Omnifood/Omnifood-Hero.PNG';
 import omnifoodAbout from './images/Omnifood/Omnifood-About.PNG';
 import omnifoodContact from './images/Omnifood/Omnifood-Contact.PNG';
@@ -23,6 +22,14 @@ import StocksPage2 from './images/Stocks/education-page2.PNG';
 import StocksResults from './images/Stocks/education-results.PNG';
 import StocksHome from './images/Stocks/homepage1.PNG';
 import StocksSearch from './images/Stocks/search.PNG';
+import NatoursAbout from './images/Natours/Natours-about.PNG';
+import NatoursBenefits from './images/Natours/Natours-benefits.PNG';
+import NatoursBooking from './images/Natours/Natours-booking.PNG';
+import NatoursHero from './images/Natours/Natours-hero.PNG';
+import NatoursPopup from './images/Natours/Natours-popup.PNG';
+import NatoursTestimonials from './images/Natours/Natours-testimonials.PNG';
+import NatoursNav from './images/Natours/Natours-full-screen-mobile-nav.PNG';
+import NatoursPricing from './images/Natours/Natours-pricing-hover-effect.PNG';
 
 const cases = [
     {
@@ -127,6 +134,39 @@ const cases = [
         "process-img3-alt": "AFTER - Stocks Analysis news view",
         "process-img4": StocksPage,
         "process-img4-alt": "Original Education page with poor accessibility"
+    },
+    {
+        "ProjectID": 5,
+        "path": "natours",
+        "title": "Front End development for company providing nature tours",
+        "image": NatoursHero,
+        "image-alt": "Natours Hero",
+        "who": "Natours - Group experiences in nature",
+        "what": "Front End coding",
+        "result": "Responsive website with visual effects",
+        "appName": "Natours - Nature Tours",
+        "link": "https://miguelr215.github.io/Natours/",
+        "github": "https://github.com/miguelr215/Natours",
+        "done-img1": NatoursHero,
+        "done-img1-alt": "Natours Hero",
+        "done-img2": NatoursBenefits,
+        "done-img2-alt": "Natours benefits section with hover highlight effect",
+        "done-img3": NatoursBooking,
+        "done-img3-alt": "Natours booking form",
+        "done-img4": NatoursPopup,
+        "done-img4-alt": "Natours booking info popup",
+        "summary": "This was a course assignment on Udemy focusing on HTML and advanced CSS and SASS concepts.  The goal was to create a responsive website for a fictitious company providing nature tours.  The result was a single page application which utilizes different CSS and SASS visual effects.",
+        "technology": "HTML | CSS | Sass | JavaScript",
+        "role": "I completed all Front-End coding",
+        "process": "The goal was to create a responsive website for a fictitious company providing nature tours by utilizing advanced CSS and SASS techniques for eye catching visual appeal.  The website was designed to display critical information that a customer would want to know – description of the company and benefits of their services, tour descriptions, pricing, testimonials, contact.  Each section of the website incorporated different CSS visual effects.  This was an outstanding course which taught me SASS fundamentals, the BEM naming structure, media queries and modern CSS properties such as clip path, position and transform.",
+        "process-img1": NatoursPricing,
+        "process-img1-alt": "Natours pricing section with cards that flip",
+        "process-img2": NatoursTestimonials,
+        "process-img2-alt": "Natours testimonial section with picture hover effect and video background",
+        "process-img3": NatoursAbout,
+        "process-img3-alt": "Natours about section with picture highlight effects",
+        "process-img4": NatoursNav,
+        "process-img4-alt": "Natours unique full screen navigation"
     },
     {
         "ProjectID": 4,

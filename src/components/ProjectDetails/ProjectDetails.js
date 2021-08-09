@@ -17,7 +17,7 @@ export default class ProjectDetails extends React.Component {
         const selectedProject = projectList.find(
             project => project.ProjectID === this.props.selectProjectID
         );
-        // need truthy for link & github
+        // add truthy for site link & github
         return(
             <section id="projects" className="projects_section">
                 <h2 className="section_header">PROJECTS</h2>

@@ -13,7 +13,7 @@
 }
 
 .edu {
-    width: 300px;
+    width: 60%;
     border: 1px solid #3C30E6;
     border-radius: 7px;
     padding: 10px;
@@ -38,5 +38,9 @@
 @media all and (min-width: 750px) {
     .edu_container {
         flex-direction: row;
+    }
+
+    .edu {
+        width: 35%;
     }
 }

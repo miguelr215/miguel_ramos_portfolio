@@ -1,5 +1,5 @@
 .contact_form {
-    width: 350px;
+    width: 70%;
     border: 1px solid #3C30E6;
     padding: 10px;
     margin: 20px;
@@ -58,4 +58,10 @@
 
 .success_message {
     color: green;
+}
+
+@media all and (min-width: 750px) {
+    .contact_form {
+        width: 300px;
+    }
 }
